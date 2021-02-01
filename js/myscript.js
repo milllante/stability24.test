@@ -45,9 +45,11 @@ $(function(){
 
     /* Изменение заголовков h2 при изменении размера экрана */
     if(window.matchMedia('(min-width: 798px)').matches){
-        $('.h2').text('adipisicing');   
+        $('.h2_right').text('adipisicing');
+        $('.h2_left').text('adipisicing');
     } else {
-        $('.h2').text('amet consectetur');
+        $('.h2_right').text('amet consectetur');
+        $('.h2_left').text('');
     }
 
 });
